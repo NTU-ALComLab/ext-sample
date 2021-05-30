@@ -1,5 +1,5 @@
 #include "base/abc/abc.h"
-#include "ext-simulate/fasttime.h"
+#include <ext-sample/fasttime.h>
 #include <ext-sample/SampleCircuit.h>
 
 #include <algorithm>
