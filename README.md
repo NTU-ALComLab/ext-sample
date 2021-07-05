@@ -29,3 +29,16 @@ A sampling circuit generator package embedded in [abc](https://github.com/berkel
       generate sampling circuit with given PI/PO number and return the network(also stored in "SampleCircuit::pAig" variable).
     5. **Abc_Ntk_t\* connect(Abc_Ntk_t\* pNtk)**  
       connect to current network and return the new network
+
+
+
+# Citation
+Please cite our ICCAD 2020 [paper](https://dl.acm.org/doi/10.1145/3400302.3415616) if you use our tool for your research:
+```bibtex
+@inproceedings{Lin:ICCAD:2020,
+    author      = {Yen-Ting Lin and Jie-Hong R. Jiang and Victor N. Kravets},
+    title       = {Symbolic Uniform Sampling with {XOR} Circuits},
+    booktitle   = {Proceedings of the International Conference of Computer-Aided Design (ICCAD)},
+    year        = {2020}
+}
+```
